@@ -1,0 +1,10 @@
+package sources;
+
+public class demo{
+    public static void main(String[] args) {
+        
+        yeet(new Error("Cringe XD"));
+        
+
+    }
+}
