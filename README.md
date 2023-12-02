@@ -6,7 +6,7 @@ Dependencies:
 
 Here is the mapping changes:
 
-| ##**Java Term** | ##**Zoomerfied**|
+| **Java Term** | **Zoomerfied**|
 |---------------|---------------|
 | ! | salty |
 | = | stan |
