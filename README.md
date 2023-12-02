@@ -34,7 +34,7 @@ Here is the mapping changes:
 | void | ghost |
 | throw | yeet |
 
-## Example of Zoomerfied Code
+## Example of Zoomerfied Code in demo.javaX file:
 ``` 
 package sources;
 
