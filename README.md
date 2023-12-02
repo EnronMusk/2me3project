@@ -3,7 +3,7 @@ Dependencies:
 - [ANTLR](https://www.antlr.org/download.html)
 
 # **Documentation** 
-compsci 2me3 A3.pdf
+See compsci 2me3 A3.pdf
 
 Here is the mapping changes:
 
