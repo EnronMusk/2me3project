@@ -2,38 +2,6 @@
 Dependencies:
 - [ANTLR](https://www.antlr.org/download.html)
 
-# **Documentation** 
-See compsci 2me3 A3.pdf
-
-Here is the mapping changes:
-
-| **Java Term** | **Zoomerfied**|
-|---------------|---------------|
-| ! | salty |
-| = | stan |
-| == | frfr |
-| + | hookup |
-| - | oof |
-| null | rip |
-| abstract | woke |
-| boolean | word |
-| break | dip |
-| double | broke |
-| class | selfie |
-| extends | deadass |
-| import | drip |
-| private | lowkey |
-| long | flex |
-| new | lit |
-| public | highkey |
-| static | basic |
-| return | dm |
-| this | squad |
-| try | vibes |
-| catch | snitch |
-| void | ghost |
-| throw | yeet |
-
 ## Example of Zoomerfied Code in demo.javaX file:
 ``` 
 package sources;
@@ -132,4 +100,35 @@ highkey woke selfie demo deadass Object {
     	squad.money stan 0;
     }
 }
-``` 
+```
+# **Documentation** 
+See compsci 2me3 A3.pdf
+
+Here is the mapping changes:
+
+| **Java Term** | **Zoomerfied**|
+|---------------|---------------|
+| ! | salty |
+| = | stan |
+| == | frfr |
+| + | hookup |
+| - | oof |
+| null | rip |
+| abstract | woke |
+| boolean | word |
+| break | dip |
+| double | broke |
+| class | selfie |
+| extends | deadass |
+| import | drip |
+| private | lowkey |
+| long | flex |
+| new | lit |
+| public | highkey |
+| static | basic |
+| return | dm |
+| this | squad |
+| try | vibes |
+| catch | snitch |
+| void | ghost |
+| throw | yeet |
