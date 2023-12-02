@@ -25,6 +25,7 @@ public class main {
         TokenStream t = new CommonTokenStream(lexer);
         int i = 1;
 
+	//This is our translated code.
         StringBuilder convCode = new StringBuilder();
 
         while (true) {
@@ -118,6 +119,7 @@ public class main {
             i++;
         }
 
+	//Creates temporary new compiled program.
         File root = Files.createTempDirectory("java").toFile();
         File sourceFile = new File(root, "test" + File.separator + "demo.java");
         sourceFile.getParentFile().mkdirs();
@@ -125,15 +127,18 @@ public class main {
 
         JavaCompiler compiler = getSystemJavaCompiler();
         compiler.run(null, null, null, sourceFile.getPath());
-        
+
+	//Name of our temporary new compiled program.
         String name = "demo.java";
-        
+
+	//This runs our compiled program.
         runCompiledProgram(Paths.get(sourceFile.getParent()), name);
     }
 
     //This method compiles our new code.
     private static JavaCompiler getSystemJavaCompiler() {
         ServiceLoader<JavaCompiler> serviceLoader = ServiceLoader.load(JavaCompiler.class);
+	    
         return serviceLoader.iterator().next();
     }
     
@@ -148,6 +153,7 @@ public class main {
         try {
             Process process = processBuilder.start();
             int exitCode = process.waitFor();
+		
             System.out.println("Program exited with code: " + exitCode);
         } catch (InterruptedException e) {
             e.printStackTrace();
