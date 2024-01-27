@@ -1,3 +1,5 @@
+Simply create your zoomer Java program in demo.javaX and have the program parse, compile and run it for you automatically.
+
 **NOTE** When cloning thie project, please clone in eclipse! The project has all the dependencies written for this IDE. Sorry if this is inconvenient. 
 Dependencies:
 - [ANTLR](https://www.antlr.org/download.html)
